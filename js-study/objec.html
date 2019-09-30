@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>egoing</li>
+    <li>graphiite</li>
+    <li>leezche</li>
+</ul>
+<script type="text/javascript">
+    // let grades = {'egoing':10,'k8805':6,'sorialgi':80);
+    /*let grades = {};
+    grades['egoing'] = 10;
+    grades['k8805'] = 6;
+    grades['sorialgi'] = 80;
+    for(let name in grades){
+        document.write("<li>key : "+name+" value : "+grades[name]+"</li>")
+    }*/
+    let grades = {
+        'list' : {'egoing' : 10,'k8805' : 8, 'sorialgi' :80},
+        'show' : function () {
+            for(let name in this.list){
+                console.log(name, this.list[name]);
+            }
+        }
+    }
+    grades.show();
+</script>
+</body>
+</html>

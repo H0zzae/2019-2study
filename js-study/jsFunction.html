@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    // function numbering() {
+    //     let i = 0;
+    //     while (i < 10) {
+    //         document.write(i);
+    //         i += 1;
+    //     }
+    // }
+    numbering = function () {
+        let i = 0;
+        while (i < 10) {
+            document.write(i);
+            i += 1;
+        }
+    }
+    (function () {
+        let i=0;
+        while(i<10){
+            document.write(i);
+            i+=1;
+        }
+    })();
+    function get_member1() {
+        return 'egoing';
+    }
+    function get_member2() {
+        return 'k8805';
+    }
+    function get_argument(arg){
+        return arg;
+    }
+
+    alert(get_argument(1));
+    alert(get_argument(2));
+</script>
+</body>
+</html>
